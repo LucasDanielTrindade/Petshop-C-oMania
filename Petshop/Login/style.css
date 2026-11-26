@@ -1,0 +1,139 @@
+
+/* CONFIGURAÇÕES GERAIS */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #d5cab3;
+    font-family: Arial, sans-serif;
+}
+
+main {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #d5cab3;
+    box-sizing: border-box;
+}
+
+/* ÁREA ESQUERDA */
+
+.area-esquerda {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    border-right: 2px solid #555555;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 220px;
+    height: 80px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+.imagem-destaque {
+    width: 100%;
+    flex: 1;
+    min-height: 0;
+    object-fit: cover;
+}
+
+/* ÁREA DE LOGIN */
+
+.area-login {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #d5cab3;
+}
+
+.area-login input {
+    width: 253px;
+    height: 39px;
+    padding: 8px 12px;
+    border: 2px solid #555555;
+    border-radius: 25px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+/* BOTÕES */
+
+.area-login button {
+    width: 253px;
+    height: 39px;
+    background-color: #484848;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* SEPARADOR */
+
+.separador {
+    width: 253px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.separador hr {
+    flex: 1;*
+    border: none;
+    border-top: 2px solid #484848;
+}
+
+/* BOTÃO GOOGLE */
+
+.botao-google {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.botao-google img {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+}
+
+/* LINK DE RECUPERAÇÃO */
+
+.area-login a {
+    color: #1685FF;
+    font-size: 13px;
+    text-decoration: underline;
+    margin-top: 10px;
+}
+.rodape section {
+    text-align: center;
+}
+
+.rodape h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.rodape p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.direitos {
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #AAAAAA;
+    padding-top: 15px;
+    margin-top: 20px !important;
+}
