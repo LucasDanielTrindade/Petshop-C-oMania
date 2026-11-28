@@ -1,9 +1,9 @@
 body{
     font-family: Arial, sans-serif;
+    margin: 0vh;
 }
 
 .area-direita{
-    zoom: 1.5;
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -14,7 +14,7 @@ body{
     box-sizing: border-box;
     position: absolute;
     right: 0%;
-    top: 8%;
+    top: 2%;
 }
 
 .area-login input {
@@ -55,42 +55,35 @@ body{
     border-top: 2px solid #484848;
 }
 
-.botao-google {
+.botao-cadastro {
     display: flex;
-    align-items: center;
-    justify-content: center;
     gap: 10px;
-}
-
-.botao-google img {
-    width: 50px;
-    height: 100%;
-    object-fit: contain;
+    font-size: 0.5rem;
 }
 
 .area-direita a {
     color: #1685FF;
-    font-size: 13px;
+    font-size: 1rem;
     text-decoration: underline;
     margin-top: 10px;
     text-align: center;
-    margin-left: 70px;
+    display: flex;
+    padding-left: 20px;
+    width: 100%;
 }
 
 .area-esquerda {
-    zoom: 3;
     width: 50%;
     display: flex;
     flex-direction: column;
-    border-right: 2px solid #555555;
+    border-right: 6px solid #555555;
     box-sizing: border-box;
 }
 
 .imagem-destaque {
+    display: flex;
     width: 100%;
-    object-fit: cover;
-    aspect-ratio: 1/1;
-    object-position: -75px;
+    height: 100%;
 }
 
 footer {
